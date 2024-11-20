@@ -32,8 +32,8 @@ export default function Home() {
               <div className="flex items-center space-x-6 text-white">
                 <div className="flex items-center">
                   <Mail className="w-4 h-4 mr-2" />
-                  <a href="mailto:contact@altet-morales-avocat.fr" className="text-sm hover:text-[#b1976b]">
-                    contact@altet-morales-avocat.fr
+                  <a href="mailto:ampr@orange.fr" className="text-sm hover:text-[#b1976b]">
+                    ampr@orange.fr
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -166,8 +166,8 @@ export default function Home() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-[#b1976b]" />
-                  <a href="mailto:contact@altet-morales-avocat.fr" className="hover:text-[#b1976b]">
-                    contact@altet-morales-avocat.fr
+                  <a href="mailto:ampr@orange.fr" className="hover:text-[#b1976b]">
+                    ampr@orange.fr
                   </a>
                 </div>
               </div>
@@ -218,10 +218,8 @@ export default function Home() {
 
 const menuItems = [
   { label: "Accueil", href: "/" },
-  { label: "Cabinet", href: "/cabinet" },
-  { label: "Domaines d'Intervention", href: "/domaines" },
-  { label: "Honoraires", href: "/honoraires" },
-  { label: "Contact", href: "/contact" }
+  { label: "Cabinet", href: "#" },
+  { label: "Contact", href: "#" }
 ];
 
 const services = [
