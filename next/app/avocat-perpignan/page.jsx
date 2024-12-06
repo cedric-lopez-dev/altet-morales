@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export const metadata = {
     title: 'Avocat Perpignan - Maître Altet-Morales | Droit Famille, Pénal, Civil',
     description: 'Cabinet d\'avocat à Perpignan - Maître Aurélie Altet-Morales, experte en droit de la famille, pénal et civil. Consultation sur RDV. Plus de 20 ans d\'expérience. Défense de vos droits.',
@@ -41,13 +39,10 @@ export default function AvocatPerpignan() {
             <section className="mb-20">
                 <div className="flex flex-col md:flex-row items-center gap-12 mb-20">
                     <div className="md:w-1/2">
-                        <Image
+                        <img
                             src="/cabinet-avocat-perpignan.jpg"
                             alt="Cabinet de Maître Aurélie Altet-Morales à Perpignan"
-                            width={600}
-                            height={400}
-                            className="rounded-xl shadow-lg"
-                            priority
+                            className="rounded-xl shadow-lg w-full h-auto"
                         />
                     </div>
                     <div className="md:w-1/2">
