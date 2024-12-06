@@ -1,9 +1,5 @@
 export default function sitemap() {
-    const baseUrl = process.env.NEXT_PUBLIC_DOMAIN
-
-    if (!baseUrl) {
-        throw new Error('NEXT_PUBLIC_DOMAIN environment variable is not defined')
-    }
+    const baseUrl = ""
 
     return [
         {
