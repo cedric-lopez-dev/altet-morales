@@ -137,7 +137,7 @@ export default function AvocatPerpignan() {
                         <ul className="space-y-4 text-lg">
                             <li className="flex items-center space-x-3">
                                 <span className="text-[#b1976b]">📍</span>
-                                <span>[Adresse du cabinet à Perpignan]</span>
+                                <span>3 Place de Catalogne 66000 Perpignan</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <span className="text-[#b1976b]">📞</span>
