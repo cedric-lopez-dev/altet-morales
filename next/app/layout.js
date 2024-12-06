@@ -1,8 +1,9 @@
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 import './globals.css';
-import SchemaMarkup from '@/components/SchemaMarkup';
+import SchemaMarkup from './components/SchemaMarkup';
 
 // Métadonnées par défaut
 export const metadata = {

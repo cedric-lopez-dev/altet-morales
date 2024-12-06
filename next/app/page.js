@@ -23,7 +23,7 @@ export const metadata = {
   },
 };
 
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "./components/ContactForm";
 import { Users, Scale, FileText } from "lucide-react";
 import Link from 'next/link';
 
