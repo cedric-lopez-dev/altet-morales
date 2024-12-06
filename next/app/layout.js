@@ -1,29 +1,36 @@
-import localFont from "next/font/local";
-import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import './globals.css';
+import SchemaMarkup from '@/components/SchemaMarkup';
 
+// Métadonnées par défaut
 export const metadata = {
-  title: "Aurélie Altet-Morales, avocat à Perpignan",
-  description: "Avocat à Perpignan",
+  title: 'Cabinet d\'avocat à Perpignan',
+  description: 'Cabinet d\'avocat spécialisé à Perpignan - Consultation et accompagnement juridique',
+  keywords: 'avocat, perpignan, droit, juridique, consultation',
 };
+
+const menuItems = [
+  { label: "Accueil", href: "/" },
+  { label: "Cabinet", href: "/avocat-perpignan" },
+  { label: "Contact", href: "/contact" }
+];
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="fr">
+      <head>
+        <SchemaMarkup />
+      </head>
+      <body>
+        <div className="min-h-screen flex flex-col">
+          <Header menuItems={menuItems} />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer menuItems={menuItems} />
+        </div>
       </body>
     </html>
   );
