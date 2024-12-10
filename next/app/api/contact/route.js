@@ -27,7 +27,7 @@ export async function POST(request) {
       },
       to: 'ampr@orange.fr',
       replyTo: process.env.SMTP_USER,
-      subject: `Nouveau message sur votre site internet de ${data.nom}`,
+      subject: `Nouveau message sur votre site internet : ${data.nom}`,
       html: `
         <p><strong>Nom:</strong> ${data.nom}</p>
         <p><strong>Email:</strong> ${data.email}</p>
