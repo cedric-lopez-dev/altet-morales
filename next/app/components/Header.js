@@ -15,7 +15,7 @@ export default function Header({ menuItems }) {
             <div className="flex items-center space-x-6 text-white">
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-2" />
-                <a href="mailto:ampr@orange.fr" className="text-sm hover:text-[#b1976b]">
+                <a href="mailto:ampr@orange.fr" className="text-sm hover:text-[#FF7BE5]">
                   ampr@orange.fr
                 </a>
               </div>
@@ -32,7 +32,7 @@ export default function Header({ menuItems }) {
       <div className="container mx-auto px-4 py-6">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-3 flex-shrink-0">
-            <Scale className="w-12 h-12 text-[#b1976b]" />
+            <Scale className="w-12 h-12 text-[#FF7BE5]" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-800">Aurélie Altet-Morales</span>
               <span className="text-sm text-gray-600">Avocat à Perpignan</span>
@@ -45,8 +45,8 @@ export default function Header({ menuItems }) {
                   <Link
                     href={item.href}
                     className={`transition-colors duration-200 ${pathname === item.href
-                      ? 'text-[#b1976b] font-medium'
-                      : 'text-gray-800 hover:text-[#b1976b]'
+                      ? 'text-[#FF7BE5] font-medium'
+                      : 'text-gray-800 hover:text-[#FF7BE5]'
                       }`}
                   >
                     {item.label}

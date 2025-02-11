@@ -1,27 +1,18 @@
-export default function sitemap() {
-    const baseUrl = ""
+export default async function sitemap() {
+    const baseUrl = 'https://votre-domaine.fr';
 
-    return [
-        {
-            url: baseUrl,
-            lastModified: new Date(),
-            changeFrequency: 'yearly',
-            priority: 1,
-        },
-        {
-            url: `${baseUrl}/avocat-perpignan`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        },
-        {
-            url: `${baseUrl}/contact`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.8,
-        }
-    ].map(route => ({
-        ...route,
-        lastModified: route.lastModified.toISOString()
-    }))
+    // Routes statiques
+    const routes = [
+        '',
+        '/avocat-perpignan',
+        '/contact',
+        '/droit-famille',
+        '/droit-penal',
+        '/droit-civil',
+    ].map((route) => ({
+        url: `${baseUrl}${route}`,
+        lastModified: new Date().toISOString(),
+    }));
+
+    return [...routes];
 } 

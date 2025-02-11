@@ -75,13 +75,13 @@ export default function ContactForm() {
             <button
                 type="submit"
                 disabled={isSubmitting}
-                className="bg-[#b1976b] text-white px-8 py-3 rounded hover:bg-[#a08555] transition-colors duration-200 disabled:opacity-50"
+                className="bg-[#FF7BE5] text-white px-8 py-3 rounded hover:bg-[#FF7BE5] transition-colors duration-200 disabled:opacity-50"
             >
                 {isSubmitting ? 'Envoi en cours...' : 'Envoyer'}
             </button>
 
             {submitStatus.message && (
-                <div className={`text-sm ${submitStatus.type === 'success' ? 'text-[#b1976b]' : 'text-[#b1976b]'}`}>
+                <div className={`text-sm ${submitStatus.type === 'success' ? 'text-[#FF7BE5]' : 'text-[#FF7BE5]'}`}>
                     {submitStatus.message}
                 </div>
             )}

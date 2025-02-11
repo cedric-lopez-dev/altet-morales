@@ -12,16 +12,16 @@ export default function Footer({ menuItems }) {
                         <h3 className="text-xl font-bold mb-6">Contact</h3>
                         <div className="space-y-4">
                             <div className="flex items-center">
-                                <MapPin className="w-5 h-5 mr-3 text-[#b1976b]" />
+                                <MapPin className="w-5 h-5 mr-3 text-[#FF7BE5]" />
                                 <p>3 Place de Catalogne 66000 Perpignan</p>
                             </div>
                             <div className="flex items-center">
-                                <Phone className="w-5 h-5 mr-3 text-[#b1976b]" />
+                                <Phone className="w-5 h-5 mr-3 text-[#FF7BE5]" />
                                 <p>04 68 51 00 19</p>
                             </div>
                             <div className="flex items-center">
-                                <Mail className="w-5 h-5 mr-3 text-[#b1976b]" />
-                                <a href="mailto:ampr@orange.fr" className="hover:text-[#b1976b]">
+                                <Mail className="w-5 h-5 mr-3 text-[#FF7BE5]" />
+                                <a href="mailto:ampr@orange.fr" className="hover:text-[#FF7BE5]">
                                     ampr@orange.fr
                                 </a>
                             </div>
@@ -33,7 +33,7 @@ export default function Footer({ menuItems }) {
                         <h3 className="text-xl font-bold mb-6">Horaires d'ouverture</h3>
                         <div className="space-y-2">
                             <p>Lundi - Vendredi</p>
-                            <p className="text-[#b1976b]">9:00 - 12:00 | 14:00 - 18:00</p>
+                            <p className="text-[#FF7BE5]">9:00 - 12:00 | 14:00 - 18:00</p>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ export default function Footer({ menuItems }) {
                         <ul className="space-y-2">
                             {menuItems.map((item, index) => (
                                 <li key={index}>
-                                    <Link href={item.href} className="hover:text-[#b1976b] transition-colors duration-200">
+                                    <Link href={item.href} className="hover:text-[#FF7BE5] transition-colors duration-200">
                                         {item.label}
                                     </Link>
                                 </li>

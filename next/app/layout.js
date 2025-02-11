@@ -1,4 +1,3 @@
-
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -15,6 +14,9 @@ export const metadata = {
 const menuItems = [
   { label: "Accueil", href: "/" },
   { label: "Cabinet", href: "/avocat-perpignan" },
+  { label: "Droit de la famille", href: "/droit-famille" },
+  { label: "Droit pénal", href: "/droit-penal" },
+  { label: "Droit civil", href: "/droit-civil" },
   { label: "Contact", href: "/contact" }
 ];
 
