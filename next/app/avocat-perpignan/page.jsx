@@ -154,7 +154,7 @@ export default function AvocatPerpignan() {
                                         </h3>
                                         <div className="space-y-4 text-gray-700">
                                             <p>
-                                                Le premier rendez-vous au cabinet n'est pas facturé. À l'issue de cette consultation, nous évaluons vos besoins et proposons un mode de paiement adapté à votre situation.
+                                                Lors du premier rendez-vous, nous évaluons ensemble vos besoins et vous exposons les différentes solutions juridiques adaptées à votre situation.
                                             </p>
                                             <p>
                                                 Une convention d'honoraires sera établie, fixant par écrit les modalités de paiement de nos prestations :
