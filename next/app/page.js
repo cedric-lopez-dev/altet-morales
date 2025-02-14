@@ -1,3 +1,7 @@
+import ContactForm from "./components/ContactForm";
+import { Users, Scale, FileText } from "lucide-react";
+import Link from 'next/link';
+
 export const metadata = {
   title: "Avocat Droit de la Famille & Pénal Perpignan | Me Aurélie Altet-Morales",
   description: "Cabinet d'avocat à Perpignan spécialisé en droit de la famille (divorce, garde d'enfants), droit pénal et droit civil. Consultation sur rendez-vous avec Me Aurélie Altet-Morales.",
@@ -22,11 +26,6 @@ export const metadata = {
     follow: true,
   },
 };
-
-import ContactForm from "./components/ContactForm";
-import { Users, Scale, FileText } from "lucide-react";
-import Link from 'next/link';
-
 
 export default function Home() {
   return (
