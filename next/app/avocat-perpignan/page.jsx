@@ -200,7 +200,7 @@ export default function AvocatPerpignan() {
 
                                     <div className="bg-[#FF7BE5]/10 p-6 rounded-lg">
                                         <p className="text-sm text-gray-600">
-                                            Le paiement par carte bancaire et par chèque est accepté. Les règlements doivent intervenir à réception de facture.
+                                            Le paiement par chèque est accepté. Les règlements doivent intervenir à réception de facture.
                                         </p>
                                     </div>
                                 </div>
