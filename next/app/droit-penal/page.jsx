@@ -34,7 +34,7 @@ export default function DroitPenal() {
                 </section>
 
                 {/* Main Content */}
-                <section className="py-16">
+                <section className="py-16 bg-white">
                     <div className="container mx-auto px-4">
                         <div className="max-w-3xl mx-auto">
                             <div className="prose max-w-none">

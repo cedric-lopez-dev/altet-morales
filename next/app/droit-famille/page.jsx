@@ -34,7 +34,7 @@ export default function DroitFamille() {
                 </section>
 
                 {/* Main Content */}
-                <section className="py-16">
+                <section className="py-16 bg-white">
                     <div className="container mx-auto px-4">
                         <div className="max-w-3xl mx-auto">
                             <h2 className="text-3xl font-bold mb-8">
@@ -42,7 +42,7 @@ export default function DroitFamille() {
                             </h2>
 
                             <p className="text-gray-700 mb-6">
-                                Le droit de la famille touche aux aspects les plus personnels de notre vie. En tant qu'avocate spécialisée, je vous accompagne avec empathie et professionnalisme dans toutes vos démarches juridiques familiales.
+                                Le droit de la famille touche aux aspects les plus personnels de notre vie. En tant qu'avocate expérimentée, je vous accompagne avec empathie et professionnalisme dans toutes vos démarches juridiques familiales.
                             </p>
 
                             <div className="grid md:grid-cols-2 gap-8 my-12">

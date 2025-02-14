@@ -53,7 +53,10 @@ export default function Footer({ menuItems }) {
                 </div>
 
                 <div className="border-t border-gray-800 mt-12 pt-8 text-center text-sm">
-                    <p>&copy; {new Date().getFullYear()} Cabinet Aurélie Altet-Morales. Tous droits réservés.</p>
+                    <p className="mb-2">&copy; {new Date().getFullYear()} Cabinet Aurélie Altet-Morales. Tous droits réservés.</p>
+                    <Link href="/mentions-legales" className="text-[#FF7BE5] hover:text-white transition-colors duration-200">
+                        Mentions légales
+                    </Link>
                 </div>
             </div>
         </footer>

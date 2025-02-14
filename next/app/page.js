@@ -40,10 +40,10 @@ export default function Home() {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover"
           }}>
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-black/10"></div>
           <div className="container mx-auto px-4 relative">
             <div className="max-w-2xl text-white">
-              <h1 className="text-5xl font-bold mb-6">Maître Aurélie Altet-Morales<br />Votre avocate à Perpignan</h1>
+              <h1 className="text-5xl font-bold mb-6">Maître <span className="text-[#FF7BE5]">Aurélie Altet-Morales</span><br />Votre avocate à Perpignan</h1>
               <p className="text-xl mb-8">Faites-moi part, au plus vite, de vos demandes !</p>
               <Link href="/avocat-perpignan">
                 <button className="bg-[#FF7BE5] hover:bg-[#FFA4ED] px-8 py-3 text-white rounded-md transition-colors duration-200">
@@ -61,7 +61,7 @@ export default function Home() {
               <h2 className="text-4xl font-bold mb-4 text-dark">Confiez vos problématiques à votre avocate expérimentée</h2>
               <p className="text-dark/80">Une justice à taille humaine</p>
               <p className="text-dark/70 mt-4 max-w-2xl mx-auto">
-                Forte d'une expérience significative dans le domaine juridique, je vous accompagne dans toutes vos démarches avec professionnalisme et bienveillance.
+                Forte d'une expérience significative de 25 ans dans le domaine juridique, je vous accompagne dans toutes vos démarches avec professionnalisme et bienveillance.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
@@ -99,10 +99,6 @@ export default function Home() {
                     <li className="flex items-start">
                       <span className="text-[#FF7BE5] mr-2">✓</span>
                       Même qualité de conseil qu'en présentiel
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#FF7BE5] mr-2">✓</span>
-                      Échange de documents sécurisé
                     </li>
                   </ul>
                 </div>
