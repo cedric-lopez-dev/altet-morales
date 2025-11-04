@@ -25,7 +25,7 @@ export async function POST(request) {
         name: 'Site internet',
         address: process.env.SMTP_USER
       },
-      to: 'ampr@orange.fr',
+      to: 'contact@altetmorales-avocat.fr',
       replyTo: process.env.SMTP_USER,
       subject: `Nouveau message sur votre site internet : ${data.nom}`,
       html: `

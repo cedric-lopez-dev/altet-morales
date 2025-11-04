@@ -21,8 +21,8 @@ export default function Footer({ menuItems }) {
                             </div>
                             <div className="flex items-center">
                                 <Mail className="w-5 h-5 mr-3 text-[#FF7BE5]" />
-                                <a href="mailto:ampr@orange.fr" className="hover:text-[#FF7BE5]">
-                                    ampr@orange.fr
+                                <a href="contact@altetmorales-avocat.fr" className="hover:text-[#FF7BE5]">
+                                    contact@altetmorales-avocat.fr
                                 </a>
                             </div>
                         </div>
